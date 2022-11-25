@@ -68,7 +68,7 @@ namespace ClassLibrary
             bool result;
             for (int i = 0; i < digit.Length; i++)
             {
-                result = char.IsLetter(digit[i]);
+                result = char.IsDigit(digit[i]);
                 if (result == false)
                 {
                     return false;
